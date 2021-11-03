@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Bonovisio Test</title>
+  </head>
+  <body class="page">
+    <form class="auth-form">
+      <div>
+        <input class="auth-form__input auth-form__input_email" placeholder="E-mail" />
+      </div>
+      <div class="auth-form__inputs">
+        <input class="auth-form__input auth-form__input_name" placeholder="Имя" />
+        <input class="auth-form__input auth-form__input_name" placeholder="Фамилия" />
+      </div>
+      <div class="auth-form__inputs">
+        <input class="auth-form__input auth-form__input_password" type="password" placeholder="Пароль" />
+        <input class="auth-form__input auth-form__input_password" type="password" placeholder="Повторите пароль" />
+      </div>
+      <div>
+        <button class="auth-form__button" type="submit">Отправить</button>
+      </div>
+    </form>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="modal-content__close">&times;</span>
+        <p class="modal-content__text"></p>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="index.js"></script>
